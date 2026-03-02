@@ -1,10 +1,9 @@
-//Colocar nome aqui
-// Nome projeto
+//Gabriel Tolcsvai de Cronis
+// Análise e Desenvolvimento de Sistemas/ Senac/ 1º Semestre
+// Faça um algoritmo para imprimir em cada linha: o seu nome  completo, o seu registro acadêmico, o seu curso
 public class Main {
     public static void main(String[] args) {
-        // Faça um algoritmo para imprimir em cada linha:
-        //o seu nome  completo, o seu registro acadêmico, o seu curso
-
+        
         String nome;
         String registroAcademico;
         String curso;

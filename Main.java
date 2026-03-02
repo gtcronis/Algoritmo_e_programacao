@@ -1,5 +1,5 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//Colocar nome aqui
+// Nome projeto
 public class Main {
     public static void main(String[] args) {
         // Faça um algoritmo para imprimir em cada linha:

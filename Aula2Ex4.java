@@ -1,21 +1,27 @@
- //Gabriel Tolcsvai de Cronis
+//Gabriel Tolcsvai de Cronis
 //Análise e Desenvolvimento de Sistemas/ Senac/ 1º Semestre
-//Construir um algoritmo para ler dois números inteiros e imprimir seu produto.
+//Construir um algoritmo para ler dois números inteiros, calcular e imprimir a soma desses números.
 
 import java.util.Scanner;
-public class Aula2Ex4{
+public class Aula2Ex4 {
     public static void main(String[] args) {
 
-        Scanner e = new Scanner(System.in);
-        System.out.println("Digite um número: ");
-        int n1= e.nextInt();
-
-        System.out.println("Digite o segundo número: ");
+        Scanner e= new Scanner(System.in);
+                System.out.println("Vamos somar alguns números inteiros.Escolha o primeiro número: ");
+                int n1= e.nextInt();
+        System.out.println("Escolha o segundo número: ");
         int n2= e.nextInt();
+        System.out.println("Escolha o terceiro número: ");
+        int n3= e.nextInt();
+        System.out.println("Escolha o quarto número: ");
+        int n4= e.nextInt();
 
-        int produto = n1*n2;
-        System.out.println("O produto é: " + produto);
+        int soma = n1+n2+n3+n4;
+
+        System.out.print("A soma dos números escolhidos é: " + soma);
 
         e.close();
-        }
+
+
     }
+}

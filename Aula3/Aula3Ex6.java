@@ -1,3 +1,4 @@
+////Gabriel Tolcsvai de Cronis
 //Faça um algoritmo que leia a altura e o sexo de uma pessoa:
 //calcule e mostre seu peso ideal.
 //usar as formulas a seguir para calcular o peso ideal:
@@ -38,6 +39,7 @@ public class Aula3Ex6 {
         e.close();
         }
     }
+
 
 
 

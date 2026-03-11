@@ -1,3 +1,4 @@
+//Gabriel Tolcsvai de Cronis
 //Faça um progarama para Ler o salário de uma pessoa e calcular e imprimir o desconto do INSS (calculado) de acordo com a tabela a seguir:
 //<= R$ 600,00	Isento
 //> R$ 600,00 e <= R$ 1200,00	20%
@@ -30,4 +31,5 @@ public class Aula3Ex12 {
         }
         e.close();
     }
+
 }

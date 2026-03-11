@@ -1,3 +1,4 @@
+//Gabriel Tolcsvai de Cronis
 //Criar uma calculadora de operações básicas:
 //soma, subtração, multiplicação e divisão.
 //o algoritmo deve ler dois números e o sinal correspondente à operação desejada;
@@ -44,3 +45,4 @@ public class Aula3Ex13 {
         e.close();
             }
                  }
+

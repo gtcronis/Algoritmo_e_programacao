@@ -1,3 +1,4 @@
+//Gabriel Tolcsvai de Cronis
 //Um jogador somente irá passar para a fase 2 se atingir 1000 	pontos.
 //Gabriel Tolcsvai de Cronis. Aula 3. Exercício 1.
 

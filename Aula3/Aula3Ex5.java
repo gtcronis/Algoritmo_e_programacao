@@ -1,3 +1,4 @@
+//Gabriel Tolcsvai de Cronis
 //Faça um algoritmo para ler um número inteiro.
 //verifique se o número está no intervalo entre 50 (inclusive) e 100 (inclusive);
 //se estiver: imprimir “Pertence ao intervalo”;
@@ -23,3 +24,4 @@ public class Aula3Ex5 {
 
     }
 }
+

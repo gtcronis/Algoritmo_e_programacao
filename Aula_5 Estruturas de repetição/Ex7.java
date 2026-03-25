@@ -14,36 +14,26 @@ public static void main (String[]args) {
     int contador=1;
     int semObesidade=0;
 
-    System.out.println("Você é o 1º paciente,vamos calular seu IMC. Digite sua altura em metros: ");
-    altura=sc.nextDouble();
-    System.out.println("Você é o 1º paciente. Digite seu peso em quilos: ");
-    peso=sc.nextDouble();
-    imc= peso / (altura * altura);
-    System.out.println("IMC"+imc);
-    contador++;
+       do {
+            System.out.println("Você é o " + contador + "º paciente. Digite sua altura em metros: ");
+            altura = sc.nextDouble();
 
-    if(imc >= 18.5 && imc <= 24.9) {
-     semObesidade++;
-    }
+            System.out.println("Você é o " + contador + "º paciente. Digite seu peso em quilos: ");
+            peso = sc.nextDouble();
 
-    do{
-        System.out.println("Você é o "+contador+"º paciente. Digite sua altura em metros: ");
-        altura=sc.nextDouble();
-        System.out.println("Você é o "+contador+ "º paciente. Digite seu peso em quilos: ");
-        peso=sc.nextDouble();
-        imc= peso / (altura * altura);
-        System.out.println("IMC: "+imc);
+            imc = peso / (altura * altura);
+            System.out.println("IMC: " + imc);
 
-        contador++;
+            if (imc >= 18.5 && imc <= 24.9) {
+                semObesidade++;
+            }
 
-        if(imc >= 18.5 && imc <= 24.9) {
-            semObesidade++;
-        }
+            contador++;
 
-    } while (contador <= 10);
+        } while (contador <= 10);
 
-System.out.println("Após exames, verificou-se que "+semObesidade+" pessoas estão dentro do IMC.");
+        System.out.println("Após exames, verificou-se que " + semObesidade + " pessoas estão dentro do IMC.");
 
-sc.close();
+        sc.close();
     }
 }

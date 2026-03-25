@@ -1,3 +1,4 @@
+////Gabriel Tolcsvai de Cronis
 //Faça um algoritmo que leia a altura e o peso de 10 pessoas.
 //	Calcular o IMC de cada pessoa e verificar quantas pessoas estão com o IMC entre 18,5 e 24,9 que é considerado sem obesidade.
 // IMC = peso / altura²

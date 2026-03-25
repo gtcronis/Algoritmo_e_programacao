@@ -1,3 +1,4 @@
+//Gabriel Tolcsvai de Cronis
 //Faça um programa que:
 //leia duas notas de 5 alunos
 //Calcule e mostre a média aritmética de cada um deles;

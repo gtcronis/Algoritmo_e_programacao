@@ -19,20 +19,20 @@ public class Exe4 {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.print("Digite um numero (ou -1 para sair): ");
+            System.out.print("Digite um número inteiro ou digite 0 para sair: ");
             int numero = sc.nextInt();
 
-            if (numero == -1) {
+            if (numero == 0) {
+                System.out.println("Programa encerrado.");
                 break;
             }
 
             if (isPar(numero)) {
-                System.out.println("numero par");
+                System.out.println("número par");
             } else {
-                System.out.println("numero impar");
+                System.out.println("número ímpar");
             }
         }
-
         sc.close();
     }
 
@@ -43,6 +43,6 @@ public class Exe4 {
             return false;
         }
     }
-
-
 }
+
+
